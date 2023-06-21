@@ -10,13 +10,13 @@ import androidx.room.Update
 @Dao
 interface StudentDao {
     @Query("select * from student")
-    suspend fun getAllStudent():LiveData<List<Student>>
+     fun getAllStudent():LiveData<List<Student>>
     @Insert
-    suspend fun insertStudent(student: Student)
+     fun insertStudent(student: Student)
 
     @Update
-    suspend fun updateStudent(student: Student)
+    fun updateStudent(student: Student)
 
     @Delete
-    suspend fun deleteStudent(student: Student)
+     fun deleteStudent(student: Student)
 }

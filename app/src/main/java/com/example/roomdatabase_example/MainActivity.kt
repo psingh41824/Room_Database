@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         database= Room.databaseBuilder(applicationContext,StudentDatabase::class.java, "studentDB").build()
 
         GlobalScope.launch {
-            database.studentDao().insertStudent(Student(0, name = "prakash singh","singhasrar@gmail.com"))
+            database.studentDao().insertStudent(Student(0, name = "prakash singh dnafj","singhasrar@gmail.com"))
         }
     }
 }
