@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RoomDatabase_Example</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_amount">Enter Amount</string>
+</resources>
